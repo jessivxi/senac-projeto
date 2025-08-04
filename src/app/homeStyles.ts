@@ -1,11 +1,13 @@
-import { Button } from '@react-navigation/elements';
+import { Background, Button } from '@react-navigation/elements';
 import { StyleSheet, ViewStyle, TextStyle, ImageStyle } from 'react-native';
 
 const style = StyleSheet.create({
 
-    container:{
+    container: {
         height: '100%',
-        paddingTop: 50,
+        justifyContent:'center',
+        padding: 15,
+        paddingTop: 30,
         backgroundColor: '#151515',
     },
 
@@ -13,7 +15,7 @@ const style = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         gap: 10,
-        padding: 20,
+        padding: 10,
     },
 
     logo: {
@@ -45,7 +47,7 @@ const style = StyleSheet.create({
 
     searchButtonText: {
         color: '#fff',
-        fontSize: 18,
+        fontSize: 15,
     },
     content: {
         display: 'flex',
@@ -56,7 +58,16 @@ const style = StyleSheet.create({
     },
     button: {
         height: 30,
-        width: 100,
+        width: 60,
+        marginBottom: 10,
+        justifyContent: 'center',
+        backgroundColor: '#ec701cff',
+        borderRadius: 20,
+        alignItems: 'center',
+    },
+    button: {
+        height: 30,
+        width: 90,
         marginBottom: 10,
         justifyContent: 'center',
         backgroundColor: '#ec701cff',
@@ -64,10 +75,9 @@ const style = StyleSheet.create({
         alignItems: 'center',
     },
 
-    buttonText:{
+    buttonText: {
         color: '#ffffffff',
-        fontSize: 13,
-        fontWeight: 'bold',
+        fontSize: 11,
     },
 
     box: {
@@ -76,14 +86,26 @@ const style = StyleSheet.create({
         borderRadius: 10,
         margin: 20,
     },
+    User: {
+        height:20,
+        width: 100,
+        paddingBottom: 25,
+        color: '#ec701cff',
+    },
+
+    textUser:{
+        color: '#ec701cff',
+    },
+
     titulo: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
-        color: '#f78b1fbb',
+        color: '#006AB9',
         marginBottom: 10,
     },
+
     texto: {
-        fontSize: 14,
+        fontSize: 13,
         color: '#ffffff',
         marginBottom: 10,
     },
@@ -94,6 +116,30 @@ const style = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
     },
+    button2: {
+        height: 50,
+        width: 280,
+        marginBottom: 10,
+        justifyContent: 'center',
+        color: '#ffffff',
+        backgroundColor: '#',
+        borderRadius: 20,
+        alignItems: 'center',
+    },
+    buttonText1:{
+    height:30,
+    width: 300,
+    paddingTop: 5,
+    textAlign: 'center' ,
+    fontWeight: 'bold',
+    justifyContent: 'center',
+    color: '#f78b1fbb',
+    backgroundColor: '#484848',
+    borderRadius: 20,
+    alignItems: 'center',
+
+}
+    
 
 });
 export default style;
