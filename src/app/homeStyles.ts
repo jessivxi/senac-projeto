@@ -14,8 +14,7 @@ const style = StyleSheet.create({
     header: {
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 10,
-        padding: 10,
+        justifyContent: 'center'
     },
 
     logo: {
@@ -24,51 +23,42 @@ const style = StyleSheet.create({
     },
 
     searchContainer: {
-        flex: 1,
+        height: 40,
+        width:305,
+        textAlign:'center',
+        justifyContent: 'center',
         flexDirection: 'row',
         alignItems: 'center',
         backgroundColor: '#222222',
         borderRadius: 6,
-        marginLeft: 10,
     },
 
     searchInput: {
         flex: 1,
-        height: 40,
-        paddingHorizontal: 10,
+        justifyContent:'center',
+        alignItems: 'center',
+        textAlign: 'center',
         color: '#fff',
     },
+    
 
     searchButton: {
-        padding: 10,
+        paddingTop: 5,
+        paddingRight: 18,
         justifyContent: 'center',
         alignItems: 'center',
     },
 
-    searchButtonText: {
-        color: '#fff',
-        fontSize: 15,
-    },
     content: {
         display: 'flex',
         flexDirection: 'row',
         padding: 30,
         gap: 20,
+    },
 
-    },
-    button: {
-        height: 30,
-        width: 60,
-        marginBottom: 10,
-        justifyContent: 'center',
-        backgroundColor: '#ec701cff',
-        borderRadius: 20,
-        alignItems: 'center',
-    },
     button: {
         height: 30,
         width: 90,
-        marginBottom: 10,
         justifyContent: 'center',
         backgroundColor: '#ec701cff',
         borderRadius: 20,
