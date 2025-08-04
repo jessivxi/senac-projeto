@@ -5,7 +5,7 @@ const style = StyleSheet.create({
 
     container: {
         height: '100%',
-        justifyContent:'center',
+        justifyContent: 'center',
         padding: 15,
         paddingTop: 30,
         backgroundColor: '#151515',
@@ -24,8 +24,8 @@ const style = StyleSheet.create({
 
     searchContainer: {
         height: 40,
-        width:305,
-        textAlign:'center',
+        width: 315,
+        textAlign: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
         alignItems: 'center',
@@ -35,32 +35,34 @@ const style = StyleSheet.create({
 
     searchInput: {
         flex: 1,
-        justifyContent:'center',
+        justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
         color: '#fff',
     },
-    
+
 
     searchButton: {
-        paddingTop: 5,
-        paddingRight: 18,
+        paddingTop: 2,
+        paddingRight: 10,
         justifyContent: 'center',
         alignItems: 'center',
     },
 
+
     content: {
         display: 'flex',
         flexDirection: 'row',
-        padding: 30,
-        gap: 20,
+        justifyContent: 'center',
+        padding:20,
+        gap: 15,
     },
 
     button: {
         height: 30,
-        width: 90,
+        width: 95,
+        paddingTop: 10,
         justifyContent: 'center',
-        backgroundColor: '#ec701cff',
         borderRadius: 20,
         alignItems: 'center',
     },
@@ -68,6 +70,7 @@ const style = StyleSheet.create({
     buttonText: {
         color: '#ffffffff',
         fontSize: 11,
+        fontWeight: '500'
     },
 
     box: {
@@ -77,14 +80,14 @@ const style = StyleSheet.create({
         margin: 20,
     },
     User: {
-        height:20,
+        height: 20,
         width: 100,
         paddingBottom: 25,
-        color: '#ec701cff',
     },
 
-    textUser:{
+    textUser: {
         color: '#ec701cff',
+        fontWeight: '500'
     },
 
     titulo: {
@@ -100,28 +103,43 @@ const style = StyleSheet.create({
         marginBottom: 10,
     },
 
-    buttonBox: {
-        color: '#f78b1fbb',
-        fontSize: 14,
-        fontWeight: 'bold',
-        textAlign: 'center',
+    userTagContainer:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
+    gap: 100,
+
+},
+
+    tag : {
+    backgroundColor: '#ec701c',
+    borderRadius: 10,
+    paddingHorizontal:12,
+    paddingVertical: 5,
+},
+
+    tagText:{
+        color: '#FFFF',
+        fontSize: 11,
+       fontWeight: '500'
     },
+
     button2: {
-        height: 50,
-        width: 280,
-        marginBottom: 10,
-        justifyContent: 'center',
-        color: '#ffffff',
-        backgroundColor: '#',
-        borderRadius: 20,
-        alignItems: 'center',
-    },
-    buttonText1:{
-    height:30,
+    height: 50,
+    width: 295,
+    marginBottom: 10,
+    justifyContent: 'center',
+    color: '#ffffff',
+    backgroundColor: '#',
+    borderRadius: 20,
+    alignItems: 'center',
+},
+    buttonText1: {
+    height: 30,
     width: 300,
     paddingTop: 5,
-    textAlign: 'center' ,
-    fontWeight: 'bold',
+    textAlign: 'center',
+    fontWeight: '500',
     justifyContent: 'center',
     color: '#f78b1fbb',
     backgroundColor: '#484848',
@@ -129,6 +147,7 @@ const style = StyleSheet.create({
     alignItems: 'center',
 
 }
+
     
 
 });
