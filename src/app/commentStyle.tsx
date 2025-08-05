@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     },
     postText: {
         color: '#ccc',
-        fontSize: 14,
+        fontSize: 13,
         marginBottom: 10,
     },
     bulletTitle: {
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     },
     bulletItem: {
         color: '#ccc',
-        fontSize: 14,
+        fontSize: 13,
         marginBottom: 5,
     },
     commentTitle: {
